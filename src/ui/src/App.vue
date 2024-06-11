@@ -1,22 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
   },
-  async mounted(){
-    
+  async mounted() {
     const data = await window.ghl.getUserData();
-    console.log("user-details", data)
-  }
-}
+    console.log("user-details", data);
+  },
+};
 </script>
 
 <style>

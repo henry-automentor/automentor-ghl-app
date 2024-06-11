@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@formkit/icons": "^1.6.5",
+    "@formkit/vue": "^1.6.5",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
